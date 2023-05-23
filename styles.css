@@ -142,8 +142,5 @@ option{
 
 #galeria_de_fotos{
     display: flex;
-}
-
-.imagenes_galeria{
-    margin-left: 80px;
+    justify-content: space-between;
 }
