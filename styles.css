@@ -1,0 +1,149 @@
+/*General*/
+*{background-color: bisque;}
+#encabezado{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+/*INDEX*/
+.menu{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#reactor{
+    float: left;
+}
+
+#emc{
+    float: right;
+    align-items: center;
+}
+
+#parrafo_1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.parrafos{
+    margin: 10px;
+}
+
+#fotos_redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#enlaces_redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/*CONTACTO*/
+
+.campo{
+    background-color: white;
+}
+
+#formulario{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+}
+
+#Enviar_contacto
+{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    margin-left: 140px;
+}
+#Enviar_contacto:hover
+{
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+}
+
+#opciones
+{
+    background-color: white;
+}
+
+#nombre
+{
+    margin: 5px;
+}
+
+#DNI{
+    margin: 5px;
+    margin-left: 28px;
+}
+
+#email{
+    margin: 5px;
+    margin-left: 18px;
+}
+
+#edad {
+    margin: 5px;
+    margin-left: 23px;
+}
+
+#opciones {
+    margin: 5px;
+    margin-left: 29px;
+}
+
+option{
+    background-color: white;
+}
+
+/*MULTIMEDIA*/
+
+#multimedia{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: small;
+    margin: 5px;
+}
+
+#p_multimedia{
+    margin: 10px;
+}
+
+#galeria_de_fotos{
+    display: flex;
+}
+
+.imagenes_galeria{
+    margin-left: 80px;
+}
